@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const DB_HOST = 'localhost';
 const DB_USER = 'root';
 const DB_PASS = '';
-const DB_NAME = 'mvp';
+const DB_NAME = 'smiters';
 
 const connection = mysql.createConnection({
   host: DB_HOST,
