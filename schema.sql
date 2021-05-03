@@ -2,19 +2,19 @@
  * Execute this file from the command line by typing:
  *   mysql -u root < schema.sql
  */
-
-/**
-Need to finsih making schema
-*/
+ 
+ /*UPLOAD THIS SCHEMA AFTER SETTING UP MYSQL DON'T FORGET THIS*/
 
 DROP DATABASE IF EXISTS smiters;
 CREATE DATABASE smiters;
 
 USE smiters;
 
-CREATE TABLE items (
-  id int NOT NULL AUTO_INCREMENT,
-  name varchar(255) NOT NULL,
-  description varchar(50) NOT NULL,
-  PRIMARY KEY (id)
+CREATE TABLE `USERS` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `username` varchar(100) NOT NULL UNIQUE,
+  `platform`varchar(4) NOT NULL UNIQUE,
+  `kd` int NOT NULL,
+  `wl` int NOT NULL,
+  `playtime` int NOT NULL
 );
