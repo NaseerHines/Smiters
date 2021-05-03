@@ -6,7 +6,8 @@ Current Deployment via [Google CLoud](https://cloud.google.com/)
 - Soon TM
 
 ## Motivation
-- ...
+- A personal project for me and my friends to look up stats, post custom builds, and read items/gods. Maybe more down the line.
+View stats, post builds, read items/gods.
 
 ## Contributing to Development
 - ...
