@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Smiters
+A solo project for friends developed by
+- [Naseer Hines](https://github.com/NaseerHines)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Current Deployment via [Google CLoud](https://cloud.google.com/)
+- Soon TM
 
-## Available Scripts
+## Motivation
+- ...
 
-In the project directory, you can run:
+## Contributing to Development
+- ...
 
-### `npm start`
+## Technology Stack
+### Front-End
+- [React 16.13](https://reactjs.org/docs/react-api.html) - A JavaScript library for building user interfaces.
+- [Axios](https://www.npmjs.com/package/axios) - Promise based HTTP client for the browser and node.js.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Server
+- [Node.js 8.17](https://nodejs.org/en/docs/) - As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.
+- [Express 4.17](https://expressjs.com/en/api.html) - Fast, unopinionated, minimalist web framework for Node.js.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Database
+- [MySQL](https://dev.mysql.com/doc/) - MySQL is an open-source relational database management system.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Authentication
+- [SmiteAPI](https://docs.google.com/document/d/1OFS-3ocSx-1Rvg4afAnEHlT3917MAK_6eJTR6rzr-BM/edit#heading=h.n504c88qbgv2) - Smites API for getting the games different stats.
 
 ### Deployment
+- [Google Cloud Platform](https://cloud.google.com/) - Google Cloud Platform, offered by Google, is a suite of cloud computing services.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### External APIs
+- [SmiteAPI](https://docs.google.com/document/d/1OFS-3ocSx-1Rvg4afAnEHlT3917MAK_6eJTR6rzr-BM/edit#heading=h.n504c88qbgv2) - Smites API for getting the games different stats.
 
-### `npm run build` fails to minify
+### Linter
+- [ESLint ](https://eslint.org/) - A configurable linter tool for identifying and reporting on patterns in JavaScript.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Development Team
+- [Naseer Hines](https://github.com/NaseerHines)
+
+## License
+
+Most software owned by Hi-Rez Studios
+
+The MIT License (MIT)
+
+Copyright (c) 2021 Naseer Hines
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
