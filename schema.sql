@@ -3,10 +3,14 @@
  *   mysql -u root < schema.sql
  */
 
-DROP DATABASE IF EXISTS mvp;
-CREATE DATABASE mvp;
+/**
+Need to finsih making schema
+*/
 
-USE mvp;
+DROP DATABASE IF EXISTS smiters;
+CREATE DATABASE smiters;
+
+USE smiters;
 
 CREATE TABLE items (
   id int NOT NULL AUTO_INCREMENT,
