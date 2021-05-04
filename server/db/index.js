@@ -28,13 +28,14 @@ const postUser = (username, platform, kd, wl, playtime) => {
   return query(mysqlQuery, [username, platform, kd, wl, playtime]);
 };
 
-const getUser = (username) => {
-  const mysqlQuery = 'SELECT * FROM USERS WHERE username = ?;';
-  return query(mysqlQuery, [username]);
+const getUser = (username, platform) => {
+  const mysqlQuery = 'SELECT * FROM USERS WHERE username = ? platform = ?;';
+  return query(mysqlQuery, [username, platform]);
 };
 
+// look more into this
 const updateUser = (username, platform, kd, wl, playtime) => {
-  const mysqlQuery = 'UPDATE USERS SET kd = ?, wl = ?, playtime = ?;';
+  const mysqlQuery = 'UPDATE USERS SET WHERE username = ? platform = ? kd = ?, wl = ?, playtime = ?;';
   return query(mysqlQuery, [kd, wl, playtime]);
 };
 

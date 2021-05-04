@@ -1,15 +1,15 @@
 const { Router } = require("express");
 const axios = require("axios");
-const { token } = require('../config');
-const { postUser, getUser, updateUser } = require('../db/index')
+const { authKey } = require('../config');
+const { postUser, getUser, updateUser } = require('./db/index');
 const apiRouter = Router();
 
-const getUser = (username, platform, cb) => {
+const grabAccount = (username, platform, cb) => {
     // put in smiteAPI url
-    const apiUrl = ``;
+    const apiUrl = `http://api.smitegame.com/smiteapi.svc`;
     const options = {
         headers: {
-            Authorization: `Bearer ${token}`,
+            Authorization: `Bearer ${authKey}`,
         },
     };
     return axios
@@ -27,15 +27,22 @@ const getUser = (username, platform, cb) => {
 apiRouter.post("/save", (req, res) => {
     const { username, platform } = req.body;
     console.log(username, platform);
-    getUser(username, platform, (data) => {
+    grabAccount(username, platform, (data) => {
     console.log(data);
     postUser(data);
     res.send(data);
     });
 });
 
-apiRouter.patch("/update", () => {
-
+apiRouter.get("/stats", () => {
+    const { username, platform } = req.body;
+    console.log(username, platform);
+    getUser(username, platform, (data) => {
+    console.log(data);
+    res.send(data);
+    });
 });
+
+// need to write the update one
 
 module.exports.apiRouter = apiRouter;
